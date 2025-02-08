@@ -1,9 +1,9 @@
 # cicd
-name: deploy-zalazium-prd
+name: deploy-dev
 on:
   push:
     branches:
-      - zalazium-prd
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
